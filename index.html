@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        section {
+            padding: 2rem;
+        }
+        .certificacion {
+            background-color: white;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .certificacion img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            .certificacion {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio Personal</h1>
+        <p>Aquí iré agregando mis certificaciones, proyectos y más.</p>
+    </header>
+
+    <section>
+        <h2>Certificaciones</h2>
+        <div class="certificacion">
+            <img src="certificado.png" alt="Certificación Competencias Generales">
+            <div>
+                <h3>Competencias de Aprendizaje Generales</h3>
+                <p>Certificación otorgada por UNIR (48 horas). Incluye competencias lingüísticas, espaciales, matemáticas y tecnológicas.</p>
+                <a href="/mnt/data/e530645b-0409-4ec4-8119-897f2c08aa80%20(1).pdf" target="_blank">Ver Certificado</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 - Mi Portafolio Personal</p>
+    </footer>
+</body>
+</html>
